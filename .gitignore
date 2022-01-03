@@ -1,0 +1,12 @@
+# no pdf
+*.pdf
+
+# no documentation
+*.txt
+
+# no libraries
+bootstrap.bundle.min.js
+jqurey-3.6.0.mi.js
+
+#no images
+images/*.jpg
