@@ -21,8 +21,8 @@ nav {
   background-color: #6c757d;
   
 }
-
-  @media screen and (max-width: 1333px) {
+/*
+  @media screen and (max-width: 741px) {
    /* ul {
       list-style-type: none; 
     }
@@ -30,13 +30,13 @@ nav {
     ol {
       list-style-type: none; 
     }
-   */
+   
     .photo {
       display: none;
     }
 
   
-  }
+  }*/
   @media screen and (max-width: 575px) {
     .logo {
       display: none;
