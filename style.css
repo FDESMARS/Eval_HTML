@@ -1,23 +1,44 @@
+body {
+  background-color: rgb(87, 86, 86);
+  color: white;
+  
+}
+header {
+  margin-top: 1vh;
+}
+
+nav {
+  background-color: rgb(87, 86, 86); 
+}
+
+/*class breadcrum */
+.bread {
+  color: black;
+
+}
+/*class for card and footer */
+.back-color {
+  background-color: #6c757d;
+  
+}
+
+  @media screen and (max-width: 1333px) {
+   /* ul {
+      list-style-type: none; 
+    }
+
+    ol {
+      list-style-type: none; 
+    }
+   */
+    .photo {
+      display: none;
+    }
 
   
-
-    @media screen and (max-width: 1333px) {
-     /* ul {
-        list-style-type: none; 
-      }
-
-      ol {
-        list-style-type: none; 
-      }
-     */
-      .photo {
-        display: none;
-      }
-
-    
+  }
+  @media screen and (max-width: 575px) {
+    .logo {
+      display: none;
     }
-    @media screen and (max-width: 575px) {
-      .logo {
-        display: none;
-      }
-      
+    

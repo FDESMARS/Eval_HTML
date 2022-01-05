@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body class="bg-dark">
-    <!--Container definition-->
-    <main class="container-fluid">
-      <div class="row">
+  <!--Container definition-->
+  <body class="container-fluid">
+    <!--header-->
+      <header class="row">
           <div class="col-12">
             <!--Navigation definition-->
-              <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-                <img class="col-4 logo" src="images/LogoFrançoisJPG.JPG" height="100vh" width="100wh"
+              <nav class="navbar navbar-expand-sm navbar-dark align-items-end">
+                <img class="col-3 logo" src="images/LogoFrançoisJPG.JPG" height="100vh"
                  alt="LogoF3">
                 <a class="navbar-brand" href="#">Association KSCP</a>
                   <div class="collapse navbar-collapse ">
@@ -33,10 +33,10 @@
                   </div>
               </nav>
           </div>
-      </div>
+      </header>
       <div class="row">
         <!--breadCrumb definition-->
-        <nav class="col-12" aria-label="breadcrumb">
+        <nav class="bread col-12" aria-label="breadcrumb">
             <ol class="breadcrumb">
               
                 <li class="breadcrumb-item active"><a href="index.html">Les activités</a></li>
@@ -45,113 +45,116 @@
             </ol>
         </nav>
       </div>
-      <div class="row">
-      </div>
-      <div class="row row-cols-1 row-cols-lg-3">
-        
-        <div class="col col-lg-4">
-          <h2 class="col-4 text-white">Palmarés</h2>
-          <!--first card definition-->
-          <div class="card bg-secondary shadow p-2 mb-5 rounded text-white">
-            <img width="500" height="480" src="images/Podium3.jpg" class="card-img-top 
-            rounded-circle p-2 photo" alt="Podium3">
-            <div class="card-body">
-              <!--Title activity-->
-              <h5 class="card-title">Palmarès </h5>
-              <!--card description-->
-              <p class="card-text">
-                4 fois Vainqueur du Trophée de Bretagne:
-                  <ul>
-                    <li>Catégorie Promo</li>
-                    <li>Catégorie Nationale</li>
-                    <li>Catégorie Open</li>
-                  </ul>
-                  Coupe de France:
-                   <ul>
-                    <li>5ème catégorie Promo en 2003</li>
-                    <li>11ème catégorie Promo en 2004</li>
-                   </ul>
-                   Endurance:
-                  <ul>
-                    <li>1 victoire aux 24 heures du Mans en Open Kart</li>
-                  </ul> 
-                  Formule 20000/tr 
-                  <ul>
-                    <li>3 victoires dont Ancenis 2020</li>
-                  </ul> 
-                  
-               </p>
-            </div>
-          </div>
-        </div>
-        <div class="col col-lg-4">
-          <h2 class="text-white ">Contact Association</h2>
-          <!--second card definition-->
-          <div class="card bg-secondary shadow p-2 mb-5 rounded text-white">
-            <img width="500" height="480" src="images/Micron.jpg" class="card-img-top 
-            rounded-circle p-2 photo" alt="micron">
-            <div class="card-body">
-              <!--Title activity-->
-              <h5 class="card-title">Coordonnées KSCP</h5>
-              <!--card description-->
-              <p class="card-text">
-                Association loi de 1901 statut déposé le 15/12/2020
-              </p>
-                e-mail  :
-                  <ul>
-                    <li>f.xxxxxxd@orange.fr</li>
-                  </ul>
-                téléphone :
-                  <ul>
-                    <li>+33 x xx xx xx xx</li>
-                  </ul>  
-              
-            </div>
-          </div>
-        </div> 
-        <div class="col col-lg-4">
-          <h2 class="text-white">Demande informations</h2>
-          <!--div information definition-->
-          <div class="bg-secondary shadow mb-5 rounded text-white">
+      <main class="row row-cols-1 row-cols-lg-3 justify-content-around">
+        <!--first card definition-->
+        <div class="back-color col col-lg-4 mb-5
+                    card shadow p-2 
+                    rounded">
             <!--Title activity-->
-            <h5 class="pl-2 pt-3"> Coordonnés </h5>
-            <!--form details-->        
-            <form class="p-3" id="formul" method="post" action="">
-              <label for="name">Votre nom :</label>
-              <input type="text" class="form-control" id="name" placeholder="Durand"><br>
-              <label for="first-name">Votre prénom :</label>
-              <input type="text" class="form-control" id="first-name" placeholder="Robert"><br>
-              <label for="emailField">Votre adresse Mail :</label>
-              <input type="email" class="form-control" id="e-mail" name="emailField"
-                placeholder="durand@test.fr"><br>
-              <labelfor="telField">Votre téléphone :</label>
-              <input type="tel" class="form-control" id="telField" name="telField"
-                placeholder="+33 0 00 00 00 00"><br>
-              <label for="myTextField">Votre message :</label>
-              <textarea class="form-control" rows="5" cols="20" id="myTextField" name="myTextField" placeholder="message">
-              </textarea>
-              <div class="d-flex justify-content-around m-4">
-                  <button class="btn-info" type="reset"> 
-                  Effacez! </button>
-                  <button class="d-flex justify-content-end btn-success" type="submit">
-                  Envoyez!</button>
-              </div>
+          <h2 class="card-title">Palmarès </h2>
+          <img width="500" height="480" src="images/Podium3.jpg" class="card-img-top 
+              rounded-circle p-2 photo" alt="Podium3">
+          <div class="card-body">
               
-            </form>
+            <!--card description-->
+            <p class="card-text">
+               4 fois Vainqueur du Trophée de Bretagne:
+              <ul>
+                <li>Catégorie Promo</li>
+                <li>Catégorie Nationale</li>
+                <li>Catégorie Open</li>
+              </ul>
+             Coupe de France:
+              <ul>
+                <li>5ème catégorie Promo en 2003</li>
+                <li>11ème catégorie Promo en 2004</li>
+              </ul>
+              Endurance:
+              <ul>
+               <li>1 victoire aux 24 heures du Mans en Open Kart</li>
+              </ul> 
+              Formule 20000/tr 
+              <ul>
+               <li>3 victoires dont Ancenis 2020</li>
+              </ul> 
+                  
+             </p>
           </div>
         </div>
-      </div>   
-    </main>
-    <!--Footer definition-->
-    <footer class="row bg-secondary">
-      <div class="col-12">
-        <p class="text-center text-white">
-          FD Prod2021 <br>
-          e-mail: toto@test.fr
-        </p>
-      </div>
+        
+        
+          
+          <!--second card definition-->
+        <div class="back-color col col-lg-4 mb-5
+                    card shadow p-2 rounded">
+          <!--Title activity-->
+          <h2 class="card-title">Contact Association</h2>
+          <img width="500" height="480" src="images/Micron.jpg" class="card-img-top 
+          rounded-circle p-2 photo" alt="micron">
+          <div class="card-body">
+            <!--card description-->
+            <p class="card-text">
+              Association loi de 1901 statut déposé le 15/12/2020
+            </p>
+              e-mail  :
+              <ul>
+                <li>f.xxxxxxd@orange.fr</li>
+                  <a class="btn btn-primary btn-lg active" role="button" href="mailto:toto@test.fr?subject=Contact">
+                      Cliquez ici pour envoyer un courriel!
+                  </a>
+                  
+              </ul>
+              téléphone :
+              <ul>
+                <li>+33 x xx xx xx xx</li>
+              </ul>  
+              
+          </div>
+        </div>
+        
+          <!--third card definition-->
+        <div class="back-color col col-lg-3
+                card mb-5 shadow p-2 rounded">
+            <!--Title activity-->
+          <h2 class="card-title">Demande informations</h2>
+                      
+            <!--form details-->        
+          <form class="p-3" id="formul" method="post" action="">
+            <label for="name">Votre nom :</label>
+            <input type="text" class="form-control" id="name" placeholder="Durand"><br>
+            <label for="first-name">Votre prénom :</label>
+            <input type="text" class="form-control" id="first-name" placeholder="Robert"><br>
+            <label for="emailField">Votre adresse Mail :</label>
+            <input type="email" class="form-control" id="e-mail" name="emailField"
+              placeholder="durand@test.fr"><br>
+            <labelfor="telField">Votre téléphone :</label>
+            <input type="tel" class="form-control" id="telField" name="telField"
+              placeholder="+33 0 00 00 00 00"><br>
+            <label for="myTextField">Votre message :</label>
+            <textarea class="form-control" rows="5" cols="20" id="myTextField" name="myTextField" 
+              placeholder="message">
+            </textarea>
+            <div class="d-flex justify-content-around m-4">
+              <button class="btn-info" type="reset"> 
+              Effacez! </button>
+              <button class="d-flex justify-content-end btn-success" type="submit">
+              Envoyez!</button>
+            </div>
+          </form>
+        </div>
+        
+      </main>   
+    
+      <!--Footer definition-->
+      <footer class="row back-color">
+        <div class="col-12">
+         <p class="text-center">
+           FD Prod2021 <br>
+            e-mail: toto@test.fr
+          </p>
+       </div>
       
-    </footer>
+      </footer>
 
     <script src="jquery-3.6.0.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
