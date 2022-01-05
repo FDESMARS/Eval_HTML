@@ -14,11 +14,13 @@ nav {
 /*class breadcrum */
 .bread {
   color: black;
+  
 
 }
 /*class for card and footer */
 .back-color {
   background-color: #6c757d;
+  text-justify: auto;
   
 }
 /*
@@ -34,12 +36,14 @@ nav {
     .photo {
       display: none;
     }
-
-  
   }
-  @media screen and (max-width: 575px) {
+  */
+  
+  @media screen and (max-width: 300px) {
     .logo {
       display: none;
+      
     }
-  */
+  
+  
     
