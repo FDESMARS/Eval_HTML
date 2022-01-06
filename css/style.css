@@ -1,8 +1,30 @@
+
+html {
+  font-size: 20px;
+}
 body {
   background-color: rgb(87, 86, 86);
   color: white;
-  
 }
+
+/* class for title nav */
+body, .nav-title  {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+/* class for title h2 of activities cards*/
+.act-title {
+  font-size: 1.5rem;
+}
+
 header {
   margin-top: 1vh;
 }
@@ -11,36 +33,46 @@ nav {
   background-color: rgb(87, 86, 86); 
 }
 
+/* del logo for screen < 300px*/
+.logo {
+  display: none;
+  
+}
+
 /*class breadcrum */
 .bread {
   color: black;
-  
-
 }
+
 /*class for card and footer */
 .back-color {
   background-color: #6c757d;
   text-justify: auto;
-  
-}
-/*
-  @media screen and (max-width: 741px) {
-   /* ul {
-      list-style-type: none; 
-    }
-
-    ol {
-      list-style-type: none; 
-    }
-   
-    .photo {
-      display: none;
-    }
+  word-wrap: none;
   }
-  */
-  
-  @media screen and (max-width: 300px) {
+
+@media screen and (min-width: 1333px) {
+  body, .nav-title {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+ }
+
+ h2 {
+  font-size: 2.5rem;
+ }
+
+ /* class for title h2 of activities cards*/
+.act-title {
+  font-size: 1.8rem;
+  }
+}
+ 
+  @media screen and (min-width: 300px) {
     .logo {
-      display: none;
+      display:block
       
     }
+  }
