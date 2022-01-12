@@ -6,7 +6,7 @@
     <meta name="description" content="Avec KSCP découvrez toutes les sensations 
     d'un sport mécanique, le karting">
     <title>KSCP Karting Association</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <!--Container definition-->
@@ -18,8 +18,15 @@
               <nav class="navbar navbar-expand-md navbar-dark align-items-end">
                 <img class="logo" src="images/LogoFrançoisJPG.JPG" height="100vh"
                  alt="LogoF3">
+                 
                 <a class="nav-title ml-2 navbar-brand" href="#">Association KSCP</a>
-                  <div class="collapse navbar-collapse ">
+                <!--Nav Responsive-->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                   data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" 
+                   aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>  
+                  <div class="collapse navbar-collapse" id="navbarText">
                       <ul class="navbar-nav mr-auto">
                           <li class="nav-item">
                               <a class="nav-link" href="index.html">Les activités</a>
@@ -39,9 +46,8 @@
         <nav class="bread col-12" aria-label="breadcrumb">
             <ol class="breadcrumb">
               
-                <li class="breadcrumb-item active"><a href="index.html">Les activités</a></li>
-                <li class="breadcrumb-item active"><a href="evenement.html"> Evènements</a></li>
-                <li class="breadcrumb-item" aria-current="page">Contact</li>
+                <li class="breadcrumb-item"><a href="index.html">Les activités</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
             </ol>
         </nav>
       </div>
@@ -134,9 +140,9 @@
               placeholder="message">
             </textarea>
             <div class="d-flex justify-content-around m-4">
-              <button class="btn-info" type="reset"> 
+              <button class="btn btn-lg btn-info" type="reset"> 
               Effacez! </button>
-              <button class="d-flex justify-content-end btn-success" type="submit">
+              <button class="d-flex justify-content-end btn btn-lg btn-success" type="submit">
               Envoyez!</button>
             </div>
           </form>
@@ -155,10 +161,11 @@
       
       </footer>
 
-    <script src="jquery-3.6.0.min.js" ></script>
+    <script src="scripts/jquery-3.6.0.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="bootstrap.bundle.min.js" ></script>
-    <script src="script.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js" ></script>
+    <script src="scripts/script.js"></script>
+      
     
   </body>
 </html>
